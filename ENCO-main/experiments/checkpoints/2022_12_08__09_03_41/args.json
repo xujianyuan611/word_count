@@ -1,0 +1,30 @@
+{
+    "num_epochs": 30,
+    "seed": 42,
+    "cluster": false,
+    "batch_size": 128,
+    "hidden_size": 64,
+    "use_flow_model": false,
+    "model_iters": 1000,
+    "graph_iters": 100,
+    "lambda_sparse": 0.004,
+    "lr_model": 0.005,
+    "lr_gamma": 0.02,
+    "lr_theta": 0.1,
+    "weight_decay": 0.0,
+    "checkpoint_dir": null,
+    "GF_num_batches": 1,
+    "GF_num_graphs": 100,
+    "max_graph_stacking": 200,
+    "use_theta_only_stage": false,
+    "theta_only_num_graphs": 4,
+    "theta_only_iters": 1000,
+    "save_model": false,
+    "stop_early": false,
+    "sample_size_obs": 5000,
+    "sample_size_inters": 200,
+    "max_inters": -1,
+    "graph_files": [
+        "../hihi.pt"
+    ]
+}
